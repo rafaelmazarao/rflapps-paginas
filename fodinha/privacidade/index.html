@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — Fodinha</title>
+<style>
+  :root {
+    --teal: #5A1230;
+    --teal-dark: #3D0B20;
+    --texto: #1f2a28;
+    --texto-suave: #4a5a57;
+    --fundo: #fafdfc;
+    --cartao: #ffffff;
+    --borda: #e0e8e6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--fundo);
+    color: var(--texto);
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--teal), var(--teal-dark));
+    color: #fff;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 1.75rem;
+  }
+  header p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 0.95rem;
+  }
+  main {
+    max-width: 720px;
+    margin: -24px auto 60px;
+    padding: 0 20px;
+  }
+  .cartao {
+    background: var(--cartao);
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    padding: 28px 28px 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(61, 11, 32, 0.06);
+  }
+  .resumo {
+    background: #f6e9ee;
+    border: 1px solid #e3c2cf;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 24px auto;
+    max-width: 720px;
+  }
+  .resumo p { margin: 0; color: var(--teal-dark); font-weight: 500; }
+  h2 {
+    color: var(--teal-dark);
+    font-size: 1.15rem;
+    margin-top: 0;
+  }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--teal); }
+  footer {
+    text-align: center;
+    color: var(--texto-suave);
+    font-size: 0.85rem;
+    padding: 0 20px 40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Política de Privacidade da Fodinha</h1>
+  <p>Última atualização: 20 de novembro de 2026</p>
+</header>
+
+<div class="resumo">
+  <p>Resumo rápido: a Fodinha não pede cadastro nem conta. Suas estatísticas ficam só no
+  seu aparelho. O app exibe anúncios do Google AdMob, que podem usar o ID de publicidade do seu
+  aparelho.</p>
+</div>
+
+<main>
+
+  <div class="cartao">
+    <h2>Quais dados o app guarda</h2>
+    <ul>
+      <li>Suas preferências (som e apelido do online) e suas estatísticas (partidas, vitórias e palpites certos).</li>
+    </ul>
+    <p>Isso fica salvo só no armazenamento do seu próprio aparelho. Não existe conta de usuário
+      nem servidor nosso guardando essas informações.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Jogar com amigos (online)</h2>
+    <p>Quando você cria ou entra numa sala para jogar com amigos, o app envia pela internet o
+      apelido que você escolheu e as jogadas da partida para os outros jogadores da mesma sala.
+      Essa troca passa pelo serviço de tempo real do Supabase, que só repassa as mensagens entre
+      os aparelhos: nada da partida é gravado em banco de dados.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Anúncios</h2>
+    <p>A versão gratuita mostra anúncios do Google AdMob entre as partidas. O AdMob pode coletar
+      o ID de publicidade do aparelho, dados técnicos (modelo, sistema, endereço IP) e informações
+      de interação com os anúncios, para exibir e medir anúncios e evitar fraudes. Isso segue a
+      <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+    <p>Você pode redefinir ou excluir o ID de publicidade nas configurações do Android
+      (Google &gt; Anúncios).</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Compra "Sem anúncios"</h2>
+    <p>O pagamento é processado inteiramente pelo Google Play Faturamento. O app nunca vê nem
+      guarda número de cartão ou dados de pagamento. Para lembrar que você comprou, usamos o
+      serviço RevenueCat, que recebe um identificador anônimo gerado pelo app e o recibo da
+      compra enviado pelo Google Play, sem nome, e-mail ou outros dados pessoais.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Compartilhamento com terceiros</h2>
+    <p>Não vendemos seus dados. Os únicos serviços externos usados são os citados acima:
+      Google AdMob (anúncios), RevenueCat (compra) e Supabase (partidas online com amigos).
+      Se você usar o botão de compartilhar o código da sala, é você quem escolhe para qual app
+      ou pessoa enviar.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Quanto tempo guardamos seus dados</h2>
+    <p>As preferências e estatísticas ficam no seu aparelho até você limpar os dados do app ou
+      desinstalá-lo. As mensagens das partidas online não são guardadas.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Crianças</h2>
+    <p>A Fodinha não é direcionada a crianças menores de 13 anos.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Mudanças nesta política</h2>
+    <p>Se algo mudar, esta página será atualizada e a data no topo vai refletir isso.</p>
+  </div>
+
+  <div class="cartao">
+    <h2>Contato</h2>
+    <p>Dúvidas sobre privacidade? Fale com a gente: <a href="mailto:rflapps.dev@gmail.com">rflapps.dev@gmail.com</a></p>
+  </div>
+
+</main>
+
+<footer>
+  Fodinha — br.com.rflapps.fodinha · <a href="../../">rflapps</a>
+</footer>
+
+</body>
+</html>
